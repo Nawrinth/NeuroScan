@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: 'outfit';
+    scroll-behavior: smooth;
+}
+
+
+
+@theme{
+    --animate-typing:  typing 10s steps(15) 0s infinite, blink 1s step-end infinite;
+    --animate-myCustomAnimation: myCustomAnimation 2s ease-in-out infinite;
+    --animate-elevate: elevate 0.6s ease-out forwards;
+    --animate-blink: blink 2s step-end infinite;
+
+}
+
+@keyframes myCustomAnimation {
+    0%,
+    100% {
+      transform: rotate(-1deg);
+    }
+    50% {
+      transform: rotate(1deg);
+    }
+
+}
+
+@keyframes typing{
+    0%{
+        width: 0ch;
+    }
+    20%{
+        width: 15ch;
+    }
+    80%{
+        width: 15ch;
+    }
+    100%{
+        width:0ch;
+    }
+}
+@keyframes blink{
+    50%{
+        border-color: #2563eb;
+    }
+    0%{
+        border-color: transparent;
+    }
+    100%{
+            border-color: transparent;
+      }
+}
+
+@keyframes elevate{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
