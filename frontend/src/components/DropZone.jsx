@@ -29,7 +29,7 @@ function MyDropZone({onResult}) {
     formData.append('image', file)
 
     try {
-      const res = await fetch('http://localhost:5000/upload', {
+      const res = await fetch('https://neuroscan-97rn.onrender.com/upload', {
         method: 'POST',
         body: formData,
       })
