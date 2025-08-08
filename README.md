@@ -32,23 +32,15 @@ An AI-powered web application for **brain tumor detection** using **U-Net with A
 ### 🔙 Backend
 - Node.js + Express
 - Python Flask API (for model inference)
-- Clerk (for authentication)
 
-### ☁️ Storage & Deployment
-- Firebase / Cloudinary / S3 (for image storage)
-- Render / Vercel / Netlify (deployment)
 
 ---
 
 ## 📸 Screenshots
+<img width="1904" height="944" alt="image" src="https://github.com/user-attachments/assets/ef15261a-ae36-47e3-bc65-acd25a92a446" />
 
 > Add a few screenshots/gifs of your app (upload or link from `/assets/` folder)
 
 ---
 
-## 🧪 How to Run Locally
 
-### 1. Clone the repo
-```bash
-git clone https://github.com/yourusername/neuroscan.git
-cd neuroscan
