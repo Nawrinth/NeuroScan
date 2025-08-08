@@ -37,9 +37,12 @@ An AI-powered web application for **brain tumor detection** using **U-Net with A
 ---
 
 ## 📸 Screenshots
-<img width="1904" height="944" alt="image" src="https://github.com/user-attachments/assets/ef15261a-ae36-47e3-bc65-acd25a92a446" />
 
-> Add a few screenshots/gifs of your app (upload or link from `/assets/` folder)
+<img width="1917" height="1079" alt="Screenshot 2025-04-27 223909" src="https://github.com/user-attachments/assets/312ea9c3-d7f8-4bc9-87c5-67bf576c58bf" />
+
+<img width="1919" height="1079" alt="Screenshot 2025-04-27 224311" src="https://github.com/user-attachments/assets/48ae0768-d6bf-4a92-87b7-b9359dc69c3c" />
+
+
 
 ---
 
