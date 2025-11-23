@@ -4,6 +4,7 @@
 *{
     font-family: 'outfit';
     scroll-behavior: smooth;
+    scrollbar-width: 1px;
 }
 
 
