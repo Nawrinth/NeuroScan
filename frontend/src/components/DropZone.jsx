@@ -83,7 +83,7 @@ function MyDropZone({onResult}) {
   })
 
   return (
-    <div className="w-full flex flex-col items-center">
+    <div className="w-full flex flex-col items-center px-4 md:px-12">
       {showSuccess && (
         <div className="fixed left-[50%] transform -translate-x-1/2 top-20 text-green-400 shadow-3xl px-6 py-3 rounded-md bg-white   transition-opacity duration-100" data-aos="zoom-in">
           ✔ File uploaded successfully
@@ -98,7 +98,7 @@ function MyDropZone({onResult}) {
 
       <div
         {...getRootProps()}
-        className="w-[70%] mt-6 h-100 flex flex-col items-center justify-center p-6 border-4 border-dashed border-gray-600 rounded-md text-center cursor-pointer transition-all duration-400 hover:border-black"
+        className="sm:w-[90%] md:w-[70%] mt-6 h-100 flex flex-col items-center justify-center p-6 border-4 border-dashed border-gray-600 rounded-md text-center cursor-pointer transition-all duration-400 hover:border-black"
       >
         <input {...getInputProps()} />
         <img className="h-50" src={uploadImage} alt="" draggable="false" />
@@ -113,11 +113,11 @@ function MyDropZone({onResult}) {
           </p>
         )}
       </div>
-      <div className='flex flex-row w-[70%] text-left font-light mt-1 ml-4 text-gray-600'>
+      <div className='flex flex-row md:w-[70%] w-[90%] text-left font-light mt-1 ml-4 text-gray-600'>
         <p>File Supported: .jpg, .jpeg, .png</p>
       </div>
 
-      <div className={"flex flex-row w-[70%] justify-end" + (loading ? "opacity-50" : "opacity-100")}>
+      <div className={"flex flex-row md:w-[70%] w-[90%] justify-end" + (loading ? "opacity-50" : "opacity-100")}>
         <button
           onClick={handleUpload}
           className={"px-6 cursor-pointer mt-8 py-3 w-40 h-13 text-white font-semibold rounded-xl bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:from-blue-600 hover:to-blue-800  transition-all duration-500" + (loading ? "opacity-50 pointer-events-none" : "opacity-100") }

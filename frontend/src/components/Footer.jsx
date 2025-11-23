@@ -9,10 +9,10 @@ const Footer = () => {
       </p>
 
       <div className="flex justify-center space-x-6 mb-4">
-        <a href="/about" className="hover:underline">About</a>
-        <a href="/contact" className="hover:underline">Contact</a>
-        <a href="/privacy" className="hover:underline">Privacy Policy</a>
-        <a href="/terms" className="hover:underline">Terms of Service</a>
+        <a href="#about" className="hover:underline">About</a>
+        <a href="" className="hover:underline">Contact</a>
+        <a href="" className="hover:underline">Privacy Policy</a>
+        <a href="" className="hover:underline">Terms of Service</a>
       </div>
 
       <p className="text-xs text-gray-500 mb-2">

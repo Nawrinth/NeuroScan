@@ -5,7 +5,7 @@ import accuracyImage from '../assets/accuracy.png'
 
 const AboutUs = () => {
   return (
-      <div className="flex flex-col items-center"  id="About" data-aos="fade-up">
+      <div className="flex flex-col items-center "  id="About" data-aos="fade-up">
       {/* Header Section */}
       <div className="text-center mt-32">
         <h2 className="text-4xl font-bold">

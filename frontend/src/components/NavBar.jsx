@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <div className={navClasses}>
-      <div className="flex items-center justify-evenly h-16 px-6 md:px-12">
+      <div className="flex items-center justify-between px-4 h-16  md:px-12">
         <h2 className="text-2xl font-bold">NeuroScan</h2>
 
         {/* Mobile Menu Icon */}

@@ -11,19 +11,19 @@ const Home = () => {
         <div className='z-[-10] w-[30%] bg-blue-200 fixed top-60 right-0 h-15 rounded-l-4xl' data-aos = "slide-left"></div>
 
     {/* <div className='h-[80vh] mx-5 mt-[120px] rounded-2xl border'></div> */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center text-center">
             <p className="text-md tracking-wider text-2xl text-gray-500">Brain Tumor Classifier</p>
             <div></div>
-            <h1 className='text-4xl mt-4 font-bold text-gray-700 leading-normal'>
+            <h1 className='text-2xl md:text-4xl mt-4 font-bold text-gray-700 leading-normal'>
                 AI-Powered <span className='text-blue-600'>Brain Tumor Detection </span>for Faster 
             </h1>  
             <div className='flex flex-row'>
-                <h1 className='text-4xl mt-1 font-bold text-gray-700'>
+                <h1 className='text-2xl md:text-4xl  mt-1 font-bold text-gray-700'>
                     and More{" "}
                 </h1>
                 <div>
 
-                <h1 className='text-4xl ml-2 mt-1 font-bold text-gray-700
+                <h1 className='text-2xl md:text-4xl  ml-2 mt-1 font-bold text-gray-700
                                 overflow-hidden whitespace-nowrap
                                 border-r-4 border-blue-600 pr-2 w-fit
                                 animate-typing '>
