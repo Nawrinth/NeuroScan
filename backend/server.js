@@ -7,7 +7,7 @@ const FormData = require('form-data');
 const app = express();
 app.use(cors());
 
-const PORT = 5000;
+const PORT = process.env.PORT;
 
 // Multer memory storageu
 const upload = multer({ storage: multer.memoryStorage() });
@@ -47,6 +47,6 @@ app.post('/upload', upload.single('image'), async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
+app.listen(PORT || 3000, () => {
   console.log(`Express server running at http://localhost:${PORT}`);
 });
