@@ -33,3 +33,7 @@ async def predict(file: UploadFile = File(...)):
     label = class_labels[class_id]
 
     return {"prediction": label, "class_id": class_id}
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
