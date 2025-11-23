@@ -28,7 +28,7 @@ app.post('/upload', upload.single('image'), async (req, res) => {
 
     // Call FastAPI server
     const response = await axios.post(
-      'http://localhost:8000/predict',
+      process.env.MODEL_API,
       formData,
       { headers: formData.getHeaders() }
     );
