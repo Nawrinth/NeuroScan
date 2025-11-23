@@ -30,7 +30,7 @@ function MyDropZone({onResult}) {
     formData.append('image', file)
 
     try {
-      const res = await fetch(`${VITE_BACKEND_URL}/uploads`, {
+      const res = await fetch(`${VITE_BACKEND_URL}/upload`, {
         method: 'POST',
         body: formData,
       })
